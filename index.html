@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header{
+            background: url("https://assets.cntraveller.in/photos/63d8e5103d7229d4cf308f01/16:9/w_1024%2Cc_limit/Prequel-lead.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+             
+            width: 100%;
+          
+            height: 100vh;
+        }
+        .top h1{
+            
+            color: #c8a97e;
+            text-align: center;
+            padding-top: 18%;
+            font-size: 2.5rem;
+            
+        }
+        .top span{
+            color: white;
+            font-size: 4rem;
+        }
+        .bottom{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            
+        }
+        .child{
+            margin-top: 100px;
+            text-align: center;
+            color: white;
+        
+        }
+       .child img{
+        width: 30%;
+        border-radius: 50%;
+       }
+       
+
+       .second{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+        padding: 80px 200px 80px 200px;
+        gap: 20px;
+        align-items: center;
+    
+       }
+        .img1 img{
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+       }
+         .img2 img{
+    width: 100%;
+    margin-top: 40px;
+    height: 70vh;
+    object-fit: cover;
+       }
+       .content h1{
+        color: #c8a97e;
+            text-align: center;
+            font-size: 2.5rem;
+            
+       }
+       .content span{
+        color: black;
+        font-size: 4rem;
+        
+       }
+       .content h3{
+        margin-top: 20px;
+       }
+      .content p{
+        color: #c8a97e;
+        font-size: 3rem;
+        margin-top: 20px;
+      }
+
+      .menu{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10%;
+
+      }
+      .menu-card{
+        display: flex;
+        gap: 10px;
+        border: 1px solid rgb(128, 123, 123);
+        
+
+      }
+      .menu-card .left{
+        flex: 1;
+
+      }
+      .menu-card .right{
+        flex: 1;
+      }
+      .left img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        
+      }
+      
+      .right h3{
+        font-size: 1.5rem;
+      }
+      .right p{
+        font-size: 1rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .right button{
+background-color: #c8a97e;
+        padding: 10px;
+        width: 130px;
+        color: white;
+        border: none;
+      }
+      .right button:hover{
+background-color: #e9af5f;
+      }
+    </style>
+</head>
+<body>
+    <section class="header">
+<div class="top">
+<h1>EMPIRE <br><span>Restaurant and Dine In</span> </h1>
+</div>
+<hr>
+<div class="bottom">
+    
+<div class="child">
+    <img src="https://preview.colorlib.com/theme/feliciano/images/breakfast-1.jpg" alt="">
+    <h3>Grilled Mutton with potatoes</h3>
+    <p>Meat, Potatoes, Rice, Tomatoe</p>
+</div>
+<div class="child">
+    <img src="https://preview.colorlib.com/theme/feliciano/images/breakfast-2.jpg" alt="">
+    <h3>Grilled Mutton with potatoes</h3>
+    <p>Meat, Potatoes, Rice, Tomatoe</p>
+</div>
+<div class="child">
+    <img src="https://preview.colorlib.com/theme/feliciano/images/breakfast-2.jpg" alt="">
+    <h3>Grilled Mutton with potatoes</h3>
+    <p>Meat, Potatoes, Rice, Tomatoe</p>
+</div>
+<div class="child">
+    <img src="https://preview.colorlib.com/theme/feliciano/images/breakfast-2.jpg" alt="">
+    <h3>Grilled Mutton with potatoes</h3>
+    <p>Meat, Potatoes, Rice, Tomatoe</p>
+</div>
+</div>
+    </section>
+
+    <section class="second">
+        <div class="img1">
+<img src="https://preview.colorlib.com/theme/feliciano/images/about.jpg" alt="">
+        </div>
+        <div class="img2">
+<img src="https://preview.colorlib.com/theme/feliciano/images/about-1.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h1>about <br><span>Empire Restaurant</span> </h1>
+            <h3>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</h3>
+            <h3>Mon - Fri 8 AM - 11 PM</h3>
+            <p>+ 1-978-123-4567</p>
+        </div>
+    </section>
+
+
+ <section class="menu">
+    <div class="menu-card">
+        <div class="left">
+            <img src="https://preview.colorlib.com/theme/feliciano/images/breakfast-1.jpg" alt="">
+        </div>
+        <div class="right">
+
+            <h3>Grilled Beef with potatoes</h3>
+            <p>Meat, Potatoes, Rice, Tomatoe</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+    <div class="menu-card">
+        <div class="left">
+            <img src="https://preview.colorlib.com/theme/feliciano/images/breakfast-1.jpg" alt="">
+        </div>
+        <div class="right">
+
+            <h3>Grilled Beef with potatoes</h3>
+            <p>Meat, Potatoes, Rice, Tomatoe</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+    <div class="menu-card">
+        <div class="left">
+            <img src="https://preview.colorlib.com/theme/feliciano/images/breakfast-1.jpg" alt="">
+        </div>
+        <div class="right">
+
+            <h3>Grilled Beef with potatoes</h3>
+            <p>Meat, Potatoes, Rice, Tomatoe</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+    <div class="menu-card">
+        <div class="left">
+            <img src="https://preview.colorlib.com/theme/feliciano/images/breakfast-1.jpg" alt="">
+        </div>
+        <div class="right">
+
+            <h3>Grilled Beef with potatoes</h3>
+            <p>Meat, Potatoes, Rice, Tomatoe</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+
+    <div class="menu-card">
+        <div class="left">
+            <img src="https://preview.colorlib.com/theme/feliciano/images/breakfast-1.jpg" alt="">
+        </div>
+        <div class="right">
+
+            <h3>Grilled Beef with potatoes</h3>
+            <p>Meat, Potatoes, Rice, Tomatoe</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+
+    <div class="menu-card">
+        <div class="left">
+            <img src="https://preview.colorlib.com/theme/feliciano/images/breakfast-1.jpg" alt="">
+        </div>
+        <div class="right">
+
+            <h3>Grilled Beef with potatoes</h3>
+            <p>Meat, Potatoes, Rice, Tomatoe</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+ </section>
+</body>
+</html>
